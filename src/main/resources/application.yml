@@ -1,0 +1,19 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: rabbitmq-dynamic-service
+  rabbitmq:
+    host:
+    port:
+    virtual-host:
+    username:
+    password:
+    publisher-confirms: true
+    dynamic: true
+    cache:
+      connection:
+        mode: channel
+
